@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysHub - Principal</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.scss">
+    <link rel="stylesheet" href="../assets/local/common.css">
+    <link rel="stylesheet" href="../assets/local/detail.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-insert"></div>
+    </header>
+
+    <main>
+        <div class="container-fluid vh-100 container-live" style="margin-bottom: 10px;">
+            <h4 id="project-title">Project Title</h4>
+            <h4 id="project-desc">Esta es una descripción de prueba. Si estás leyendo esto algo probablemente salió mal.
+            </h4>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/23-ghY4ZJO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <div class="container-fluid" id="insertion-comments">
+                <div class="card comment-class">
+                    <div class="card-header">
+                        Usuario 1
+                    </div>
+
+                    <div class="card-body">
+                        Wow. Para ser un proyecto de prueba, ciertamente ha requerido mucho trabajo!
+                    </div>
+                </div>
+
+                <div class="card comment-class">
+                    <div class="card-header">
+                        Usuario 1
+                    </div>
+
+                    <div class="card-body">
+                        Wow. Para ser un proyecto de prueba, ciertamente ha requerido mucho trabajo!
+                    </div>
+                </div>
+
+                <div class="card comment-class">
+                    <div class="card-header">
+                        Usuario 1
+                    </div>
+
+                    <div class="card-body">
+                        Wow. Para ser un proyecto de prueba, ciertamente ha requerido mucho trabajo!
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="insertion-local">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control input-boxes" id="floatingname"
+                        placeholder="Proyecto 1">
+                    <label for="floatingname">Escribe un mensaje</label>
+                </div>
+                <button type="button" class="btn btn-primary" id="send-chat-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path
+                            d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="../utils/pageCommonInit.ts" type="module"></script>
+</body>
+
+</html>

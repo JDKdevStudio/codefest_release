@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SysHub - Registro</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.scss">
+    <link rel="stylesheet" href="../assets/local/common.css">
+    <link rel="stylesheet" href="../assets/local/indexforms_common.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-insert"></div>
+    </header>
+
+    <main>
+        <div class="container vh-100  d-flex justify-content-center align-items-center login-container">
+            <div class="row">
+                <h1>Comencemos</h1>
+                <h4>Llena los siguientes campos y estarás listo para acceder a SysHub</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 -960 960 960" width="24">
+                    <path
+                        d="M480-800q-33 0-56.5-23.5T400-880q0-33 23.5-56.5T480-960q33 0 56.5 23.5T560-880q0 33-23.5 56.5T480-800ZM360-200v-480q-60-5-122-15t-118-25l20-80q78 21 166 30.5t174 9.5q86 0 174-9.5T820-800l20 80q-56 15-118 25t-122 15v480h-80v-240h-80v240h-80ZM320 0q-17 0-28.5-11.5T280-40q0-17 11.5-28.5T320-80q17 0 28.5 11.5T360-40q0 17-11.5 28.5T320 0Zm160 0q-17 0-28.5-11.5T440-40q0-17 11.5-28.5T480-80q17 0 28.5 11.5T520-40q0 17-11.5 28.5T480 0Zm160 0q-17 0-28.5-11.5T600-40q0-17 11.5-28.5T640-80q17 0 28.5 11.5T680-40q0 17-11.5 28.5T640 0Z" />
+                </svg>
+                <div class="login-box">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control input-boxes" id="floatingnameName1"
+                                placeholder="name@example.com">
+                            <label for="floatingname">Nombre</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control input-boxes" id="floatingInputemail"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">Correo Electrónico</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control input-boxes" id="floatingPassword"
+                                placeholder="Password">
+                            <label for="floatingPassword">Contraseña</label>
+                        </div>
+
+                        <div class="mb-3">
+                            <h5>Sube tu mejor foto</h5>
+                            <input class="form-control input-boxes" type="file" id="floatingpic">
+                        </div>
+
+                        <div class="select-container">
+                            <select class="form-select form-select-lg" aria-label="Large select example" id="a1">
+                                <option selected>Selecciona tu facultad</option>
+                                <option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
+                            </select>
+    
+    
+                            <select class="form-select form-select-lg" aria-label="Large select example" id="a2">
+                                <option selected>Selecciona tu semestre</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-primary btn-interaction" id="btnStart">
+                                <h5>Enviar</h5>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../utils/pageCommonInit.ts" type="module"></script>
+    <script src="../ts/register.ts" type="module"></script>
+</body>
+
+</html>

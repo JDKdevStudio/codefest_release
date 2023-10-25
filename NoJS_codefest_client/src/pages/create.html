@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SysHub - Login</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.scss">
+    <link rel="stylesheet" href="../assets/local/common.css">
+    <link rel="stylesheet" href="../assets/local/indexforms_common.css">
+    <link rel="stylesheet" href="../assets/local/create.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-insert"></div>
+    </header>
+
+    <main>
+        <div class="container vh-100  d-flex justify-content-center align-items-center login-container">
+            <div class="row">
+                <h1>¿Qué tienes en mente?</h1>
+                <h4>Comparte tu idea con la comunidad UPB.</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" height="150" viewBox="0 -960 960 960" width="24"><path d="M440-320h80v-168l64 64 56-56-160-160-160 160 56 56 64-64v168Zm40 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+                <div class="login-box">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control input-boxes" id="floatingname"
+                                placeholder="Proyecto 1">
+                            <label for="floatingname">Título</label>
+                        </div>
+
+                        <div class="input-group mb-3 desc-input">
+                            <span class="input-group-text">Descripción</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <h5>Sube una foto para tu proyecto</h5>
+                            <input class="form-control input-boxes" type="file" id="floatingpic">
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control input-boxes" id="floatingname"
+                                placeholder="Proyecto 1">
+                            <label for="floatingname">URL Video o directo</label>
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="btn btn-primary btn-interaction" id="reg-project">
+                                <h5>Enviar</h5>
+                            </button>
+                        </div>
+                </div>           
+            </div>
+        </div>
+    </main>
+
+    <script src="../utils/pageCommonInit.ts" type="module"></script>
+    <script src="../ts/register_project.ts" type="module"></script>
+</body>
+
+</html>
